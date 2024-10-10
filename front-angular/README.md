@@ -1,27 +1,25 @@
-# FrontEnd
+# WebShop - Front-End
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+## Опис
 
-## Development server
+Це фронтенд частина проєкту WebShop, яка відповідає за інтерфейс користувача. Вона розроблена для відображення продуктів, оформлення замовлень та інтеграції з бекендом через API.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Робота з Front-End
 
-## Code scaffolding
+### 1. Встановлення залежностей
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Після клонування репозиторію вам необхідно встановити всі залежності для фронтенду:
+1. Встановити всі залежності
+     ```bash
+        npm install
+2. Запуск у режимі розробки
+     ```bash
+        npm run start
+- Це запустить локальний сервер і відкриє вебдодаток у браузері.
+- Зміни у коді будуть автоматично оновлюватися на сторінці без потреби перезапуску сервера.
+3.   Компіляція і збірка фронтенду
+- Після того, як ви внесли всі необхідні зміни у фронтенд і протестували їх, потрібно скомпілювати проект для використання з бекендом.
+-  Це створить оптимізовану версію вебдодатку:
+     ```bash
+       npm run build
+- Після компіляції буде створений папка  Browser(цю папку потрібно перенести в server-exppress) для заміни на нову версіюю      
